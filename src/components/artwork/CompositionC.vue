@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .canvas {
 	--black: #222;
 	--gray: #494c4b;
