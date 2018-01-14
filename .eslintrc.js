@@ -44,6 +44,10 @@ module.exports = {
 			'tab'
 		],
 		'no-tabs': 0,
+		'arrow-parens': [
+			'error',
+			'as-needed'
+		],
 		// don't require .vue extension when importing
 		'import/extensions': [
 			'error',
