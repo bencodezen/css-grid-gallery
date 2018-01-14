@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HomePage from '@/pages/HomePage'
 import CompositionC from '@/components/artwork/CompositionC'
 import CompositionWithRedYellowBlueAndBlack from '@/components/artwork/CompositionWithRedYellowBlueAndBlack'
+import DilatedGrid from '@/components/artwork/DilatedGrid'
 
 Vue.use(Router)
 
@@ -14,6 +15,13 @@ export default new Router({
 			name:
 				'HomePage',
 			component: HomePage
+		},
+		{
+			path:
+				'/art/dilated-grid',
+			name:
+				'DilatedGrid',
+			component: DilatedGrid
 		},
 		{
 			path:
