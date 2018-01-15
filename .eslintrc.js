@@ -48,6 +48,12 @@ module.exports = {
 			'error',
 			'as-needed'
 		],
+		'no-plusplus': [
+			'error',
+			{
+				allowForLoopAfterthoughts: true
+			}
+		],
 		// don't require .vue extension when importing
 		'import/extensions': [
 			'error',

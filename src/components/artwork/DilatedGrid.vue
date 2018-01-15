@@ -2,8 +2,8 @@
 	<article>
 		<section class="canvas">
 			<div v-for="(tile, index) in tiles"
-				 class="tile"
-				 :key="`tile-${index}`"
+				class="tile"
+				:key="`tile-${index}`"
 			>
 				<div class="corner ga-ul" :style="`--color: var(--${tile.upperLeftColor})`"></div>
 				<div class="corner ga-ur" :style="`--color: var(--${tile.upperRightColor})`"></div>
